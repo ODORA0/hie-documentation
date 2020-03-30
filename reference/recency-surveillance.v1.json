@@ -117,10 +117,12 @@
                         "type": "string"
                       },
                       "number_of_sexual_partners_last_12_months": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "integer"
                       },
                       "number_of_tests_last_12_months": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "integer"
                       },
                       "last_hiv_test_result": {
                         "type": "string"
@@ -151,13 +153,21 @@
                         "type": "string"
                       },
                       "health_unit_testing_entry_point_other": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text",
+                        "enum": [
+                          "Other"
+                        ]
                       },
                       "health_unit_testing_entry_point": {
                         "type": "string"
                       },
                       "hts_approach": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Pitc",
+                          "CICT(HCT)"
+                        ]
                       },
                       "hts_delivery_model": {
                         "type": "string"
