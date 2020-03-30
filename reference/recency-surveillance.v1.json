@@ -74,7 +74,13 @@
                         "type": "string"
                       },
                       "couple_result": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "DISCORDANT COUPLE",
+                          "Cordant",
+                          "Concordant Negative",
+                          "Concordant Positive"
+                        ]
                       },
                       "couple_result_received": {
                         "type": "string"
@@ -116,7 +122,8 @@
                         "type": "string"
                       },
                       "last_hiv_test_date": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "yyyy-MM-dd "
                       },
                       "first_time_hiv_test": {
                         "type": "string"
@@ -162,7 +169,7 @@
                       },
                       "date_of_birth": {
                         "type": "string",
-                        "default": "yyyy-MM-dd",
+                        "default": "yyyy-MM-dd ",
                         "format": "date"
                       },
                       "sex": {
@@ -183,7 +190,7 @@
                       },
                       "visit_date": {
                         "type": "string",
-                        "default": "yyyy-MM-dd",
+                        "default": "yyyy-MM-dd ",
                         "format": "date"
                       },
                       "serial_number": {
