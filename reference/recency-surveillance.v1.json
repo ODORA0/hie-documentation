@@ -83,7 +83,11 @@
                         ]
                       },
                       "couple_result_received": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "individual_result_received": {
                         "type": "string"
@@ -162,10 +166,30 @@
                         "type": "string"
                       },
                       "accompanied_by": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "GRANDPARENT",
+                          "Father",
+                          "AUNT",
+                          "OTHER FAMILY MEMBER",
+                          "MOTHER",
+                          "Guardian",
+                          "Other Specified Family Member",
+                          "Both Parents"
+                        ]
                       },
                       "marital_status": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "SINGLE",
+                          "MARRIED",
+                          "DIVORCED",
+                          "SEPARATED",
+                          "WIDOWED",
+                          "CHILD",
+                          "NEVER MARRIED",
+                          "LIVING WITH PARTNER"
+                        ]
                       },
                       "date_of_birth": {
                         "type": "string",
