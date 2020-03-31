@@ -71,7 +71,11 @@
                         "type": "string"
                       },
                       "presumtive_tb": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "couple_result": {
                         "type": "string",
@@ -114,7 +118,11 @@
                         "type": "string"
                       },
                       "pretest_counselling_done": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "partner_recent_test_result": {
                         "type": "string",
@@ -136,14 +144,22 @@
                         "default": "integer"
                       },
                       "last_hiv_test_result": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "HIV+",
+                          "HIV-"
+                        ]
                       },
                       "last_hiv_test_date": {
                         "type": "string",
                         "default": "yyyy-MM-dd "
                       },
                       "first_time_hiv_test": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "special_category_other": {
                         "type": "string"
@@ -228,7 +244,8 @@
                         "type": "string"
                       },
                       "health_unit_name": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "visit_date": {
                         "type": "string",
