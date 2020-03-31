@@ -102,7 +102,13 @@
                         "type": "string"
                       },
                       "hiv_final_test_result": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "HIV+",
+                          "HIV-",
+                          "INC (HTC)",
+                          "NT (HTC)"
+                        ]
                       },
                       "counseled_as": {
                         "type": "string"
@@ -111,7 +117,12 @@
                         "type": "string"
                       },
                       "partner_recent_test_result": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "HIV+",
+                          "HIV-",
+                          "UNKNOWN"
+                        ]
                       },
                       "prior_partner_testing": {
                         "type": "string"
