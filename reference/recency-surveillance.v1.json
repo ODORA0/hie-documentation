@@ -165,10 +165,7 @@
                       },
                       "health_unit_testing_entry_point_other": {
                         "type": "string",
-                        "default": "text",
-                        "enum": [
-                          "Other"
-                        ]
+                        "default": "text"
                       },
                       "health_unit_testing_entry_point": {
                         "type": "string"
