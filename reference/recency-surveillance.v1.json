@@ -128,11 +128,11 @@
                         "type": "string"
                       },
                       "number_of_sexual_partners_last_12_months": {
-                        "type": "string",
+                        "type": "integer",
                         "default": "integer"
                       },
                       "number_of_tests_last_12_months": {
-                        "type": "string",
+                        "type": "integer",
                         "default": "integer"
                       },
                       "last_hiv_test_result": {
