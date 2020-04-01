@@ -162,19 +162,22 @@
                         ]
                       },
                       "special_category_other": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "special_category": {
                         "type": "string"
                       },
                       "reason_for_testing_other": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "reason_for_testing": {
                         "type": "string"
                       },
                       "community_testing_entry_point_other": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "community_testing_entry_point": {
                         "type": "string"
@@ -197,7 +200,8 @@
                         "type": "string"
                       },
                       "accompanied_by_other": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "accompanied_by": {
                         "type": "string",
