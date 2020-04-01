@@ -238,10 +238,12 @@
                         ]
                       },
                       "health_unit_district": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "health_unit_sub_county": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "health_unit_name": {
                         "type": "string",
