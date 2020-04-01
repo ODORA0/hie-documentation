@@ -253,10 +253,12 @@
                         "format": "date"
                       },
                       "serial_number": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       },
                       "encounter_uuid": {
-                        "type": "string"
+                        "type": "string",
+                        "default": "text"
                       }
                     }
                   }
