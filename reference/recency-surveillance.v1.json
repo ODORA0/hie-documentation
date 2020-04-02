@@ -68,10 +68,18 @@
                         "default": "text"
                       },
                       "referred_to_hiv_care": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "referred_to_tb_services": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "presumtive_tb": {
                         "type": "string",
@@ -98,16 +106,34 @@
                         ]
                       },
                       "individual_result_received": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "recent_hiv_test_result": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Recent",
+                          "Long Term",
+                          "Negative",
+                          "Invalid"
+                        ]
                       },
                       "recency_test_concent": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "No",
+                          "Yes"
+                        ]
                       },
                       "hiv_final_syphillis_duo_result": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Reactive",
+                          "Non-reactive"
+                        ]
                       },
                       "hiv_final_test_result": {
                         "type": "string",
@@ -119,7 +145,12 @@
                         ]
                       },
                       "counseled_as": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Individual",
+                          "Couple",
+                          "Group"
+                        ]
                       },
                       "pretest_counselling_done": {
                         "type": "string",
@@ -137,7 +168,13 @@
                         ]
                       },
                       "prior_partner_testing": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Yes",
+                          "No",
+                          "Don't know",
+                          "Not Applicable"
+                        ]
                       },
                       "number_of_sexual_partners_last_12_months": {
                         "type": "integer",
@@ -170,28 +207,76 @@
                         "default": "text"
                       },
                       "special_category": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Prisoners",
+                          "PWIDS",
+                          "Uniformed forces",
+                          "migrant mothers",
+                          "Truckers",
+                          "Fisher folk",
+                          "Refugees",
+                          "Preganant",
+                          "Breastfeeding",
+                          "AGYW",
+                          "People with Disabilities (PWD)",
+                          "Others (Specify)"
+                        ]
                       },
                       "reason_for_testing_other": {
                         "type": "string",
                         "default": "text"
                       },
                       "reason_for_testing": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Assisted Patner Notification (APN)",
+                          "Index Client Testing other than APN",
+                          "PrEP",
+                          "PEP",
+                          "HIV Self-Test Positive",
+                          "Inconclusive HIV Result",
+                          "Self Initiative",
+                          "PMTCT",
+                          "Others"
+                        ]
                       },
                       "community_testing_entry_point_other": {
                         "type": "string",
                         "default": "text"
                       },
                       "community_testing_entry_point": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Home Based",
+                          "Hotspot",
+                          "Work Place",
+                          "Outreach",
+                          "Drop in Centre (DIC)",
+                          "Others"
+                        ]
                       },
                       "health_unit_testing_entry_point_other": {
                         "type": "string",
                         "default": "text"
                       },
                       "health_unit_testing_entry_point": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "OPD",
+                          "Ward",
+                          "ART clinic",
+                          "Tb clinic",
+                          "Nutrition unit",
+                          "Young Child clinic (YCC)",
+                          "ANC",
+                          "Maternity",
+                          "PNC",
+                          "Family Planning",
+                          "SMC",
+                          "STI Clinic",
+                          "Others (Specify)"
+                        ]
                       },
                       "hts_approach": {
                         "type": "string",
@@ -201,7 +286,11 @@
                         ]
                       },
                       "hts_delivery_model": {
-                        "type": "string"
+                        "type": "string",
+                        "enum": [
+                          "Health Facility(HF)",
+                          "Community"
+                        ]
                       },
                       "accompanied_by_other": {
                         "type": "string",
