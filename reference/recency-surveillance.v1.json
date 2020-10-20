@@ -335,7 +335,7 @@
                         ]
                       },
                       "health_unit_district": {
-                        "Description": "Name of the district of the client’s address. If not available, name of district the health facility is located",
+                        "Description": "Name of the district of the client’s address. If not available, name of district the health facility is located ",
                         "type": "string",
                         "default": "text"
                       },
