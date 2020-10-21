@@ -335,10 +335,12 @@
                         ]
                       },
                       "health_unit_district": {
+                        "description": "Name of the district of the client’s address. If not available, name of district the health facility is located",
                         "type": "string",
                         "default": "text"
                       },
                       "health_unit_sub_county": {
+                        "description": "Name of the subcounty of the client’s address. If not available, name of subcounty the the health facility is located",
                         "type": "string",
                         "default": "text"
                       },
@@ -352,6 +354,7 @@
                         "format": "date"
                       },
                       "serial_number": {
+                        "description": "HTS number. This should be same number used in HTS blood samples sent to UVRI ",
                         "type": "string",
                         "default": "text"
                       },
