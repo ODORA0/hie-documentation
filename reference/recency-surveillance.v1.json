@@ -324,7 +324,11 @@
                       },
                       "date_of_birth": {
                         "type": "string",
+<<<<<<< HEAD
                         "default": "yyyy-MM-dd ",
+=======
+                        "default": "yyyy-MM-dd",
+>>>>>>> First commit documenting Recency API in date_of_birth and Visit_date
                         "format": "date"
                       },
                       "sex": {
@@ -348,7 +352,11 @@
                       },
                       "visit_date": {
                         "type": "string",
+<<<<<<< HEAD
                         "default": "yyyy-MM-dd ",
+=======
+                        "default": "yyyy-MM-dd",
+>>>>>>> First commit documenting Recency API in date_of_birth and Visit_date
                         "format": "date"
                       },
                       "serial_number": {
