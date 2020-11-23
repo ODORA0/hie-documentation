@@ -181,7 +181,7 @@
                         ]
                       },
                       "prior_partner_testing": {
-                        "description": "Spouse/partner ever been tested for HIV before",
+                        "description": "Spouse/partner ever been tested for HIV before", 
                         "type": "string",
                         "enum": [
                           "Yes",
@@ -191,7 +191,7 @@
                         ]
                       },
                       "number_of_sexual_partners_last_12_months": {
-                        "description": "Number of sexual partners twelve months ago",
+                        "description": "Number of sexual partners twelve months ago", 
                         "type": "integer",
                         "default": "integer"
                       },
