@@ -120,7 +120,7 @@
                         ]
                       },
                       "recent_hiv_test_result": {
-                        "description": "The recency test result",
+                        "description": "The recency test result", 
                         "type": "string",
                         "enum": [
                           "Recent",
