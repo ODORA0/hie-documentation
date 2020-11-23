@@ -32,7 +32,7 @@
             },
             "in": "header",
             "name": "x-emr-date",
-            "description": "ISO 8601 date and timestamp from the server generating recency report"
+            "description": "ISO 8601 date and timestamp from the server generating recency report",
           }
         ],
         "requestBody": {
@@ -44,7 +44,7 @@
                   "dhis2_organization_uuid": {
                     "type": "string",
                     "default": "text",
-                    "description": "DHIS2 uuid for the facility sending the data "
+                    "description": "DHIS2 uuid for the facility sending the data",
                   },
                   "data": {
                     "description": "CSV content containing a single row for each HTS test from the facility ",
@@ -60,14 +60,17 @@
                     ],
                     "properties": {
                       "dhis2_orgunit_uuid": {
+                        "description": "DHIS2 organisation unit uuid for this facility",
                         "type": "string",
                         "default": "text"
                       },
                       "referred_location": {
+                        "description": "Location where client has been referred to for HIV Care",
                         "type": "string",
                         "default": "text"
                       },
                       "referred_to_hiv_care": {
+                        "description": "Client has been referred to HIV care or prevention services",
                         "type": "string",
                         "enum": [
                           "No",
@@ -75,6 +78,7 @@
                         ]
                       },
                       "referred_to_tb_services": {
+                        "description": "Presumptive TB case referred for TB services",
                         "type": "string",
                         "enum": [
                           "No",
@@ -82,6 +86,7 @@
                         ]
                       },
                       "presumtive_tb": {
+                        "description": "Client has presumtive TB",
                         "type": "string",
                         "enum": [
                           "No",
@@ -99,6 +104,7 @@
                         ]
                       },
                       "couple_result_received": {
+                        "description": "Received results as couples",
                         "type": "string",
                         "enum": [
                           "No",
@@ -106,6 +112,7 @@
                         ]
                       },
                       "individual_result_received": {
+                        "description": "Received results as individual",
                         "type": "string",
                         "enum": [
                           "No",
@@ -113,6 +120,7 @@
                         ]
                       },
                       "recent_hiv_test_result": {
+                        "description": "The recency test result",
                         "type": "string",
                         "enum": [
                           "Recent",
@@ -122,6 +130,7 @@
                         ]
                       },
                       "recency_test_concent": {
+                        "description": "Consented For Recency Testing",
                         "type": "string",
                         "enum": [
                           "No",
@@ -136,6 +145,7 @@
                         ]
                       },
                       "hiv_final_test_result": {
+                        "description": "final Result of HIV test",
                         "type": "string",
                         "enum": [
                           "HIV+",
@@ -145,6 +155,7 @@
                         ]
                       },
                       "counseled_as": {
+                        "description": "Whether patient counseled alone or with other people present",
                         "type": "string",
                         "enum": [
                           "Individual",
@@ -153,6 +164,7 @@
                         ]
                       },
                       "pretest_counselling_done": {
+                        "description": "Whether client counseled before testing is done",
                         "type": "string",
                         "enum": [
                           "No",
@@ -160,6 +172,7 @@
                         ]
                       },
                       "partner_recent_test_result": {
+                        "description": "If tested before the most recent test results for the spouse",
                         "type": "string",
                         "enum": [
                           "HIV+",
@@ -168,6 +181,7 @@
                         ]
                       },
                       "prior_partner_testing": {
+                        "description": "Spouse/partner ever been tested for HIV before",
                         "type": "string",
                         "enum": [
                           "Yes",
@@ -177,14 +191,17 @@
                         ]
                       },
                       "number_of_sexual_partners_last_12_months": {
+                        "description": "Number of sexual partners twelve months ago",
                         "type": "integer",
                         "default": "integer"
                       },
                       "number_of_tests_last_12_months": {
+                        "description": "Number of times tested twelve months ago",
                         "type": "integer",
                         "default": "integer"
                       },
                       "last_hiv_test_result": {
+                        "description": "Test results the last time tested",
                         "type": "string",
                         "enum": [
                           "HIV+",
@@ -192,10 +209,12 @@
                         ]
                       },
                       "last_hiv_test_date": {
+                        "description": "Must be YYYY-MM-DD format",
                         "type": "string",
                         "default": "yyyy-MM-dd "
                       },
                       "first_time_hiv_test": {
+                        "description": "Has never tested before",
                         "type": "string",
                         "enum": [
                           "No",
@@ -293,10 +312,12 @@
                         ]
                       },
                       "accompanied_by_other": {
+                        "description": "Only filled if accompanied_by is other",
                         "type": "string",
                         "default": "text"
                       },
                       "accompanied_by": {
+                        "description": "If the client is a child below 12 years",
                         "type": "string",
                         "enum": [
                           "GRANDPARENT",
@@ -310,6 +331,7 @@
                         ]
                       },
                       "marital_status": {
+                        "description": "Whether client is married or not",
                         "type": "string",
                         "enum": [
                           "SINGLE",
@@ -323,11 +345,13 @@
                         ]
                       },
                       "date_of_birth": {
+                        "description": "Must be YYYY-MM-DD format",
                         "type": "string",
                         "default": "yyyy-MM-dd ",
                         "format": "date"
                       },
                       "sex": {
+                        "description": "Gender of client",
                         "type": "string",
                         "enum": [
                           "M",
@@ -345,20 +369,23 @@
                         "default": "text"
                       },
                       "health_unit_name": {
+                        "description": "Name of health facility",
                         "type": "string",
                         "default": "text"
                       },
                       "visit_date": {
+                        "description": "Must be YYYY-MM-DD format",
                         "type": "string",
                         "default": "yyyy-MM-dd ",
                         "format": "date"
                       },
                       "serial_number": {
-                        "description": "HTS number. This should be same number used in HTS blood samples sent to UVRI ",
+                        "description": "HTS number. This should be same number used in HTS blood samples sent to UVRI",
                         "type": "string",
                         "default": "text"
                       },
                       "encounter_uuid": {
+                        "description": "Encounter universal unique identifier",
                         "type": "string",
                         "default": "text"
                       }
