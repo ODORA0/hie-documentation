@@ -65,7 +65,7 @@
                         "default": "text"
                       },
                       "encounter_uuid": {
-                        "description": "Encounter universal unique identifier",
+                        "description": "Encounter universal unique identifier usually a uuid for example c0d8ed6d-386a-4a1b-b9e7-af246fee0ca3",
                         "type": "string",
                         "default": "text"
                       },
@@ -75,7 +75,7 @@
                         "default": "text"
                       },
                       "visit_date": {
-                        "description": "Must be YYYY-MM-DD format",
+                        "description": "Must be yyyy-MM-dd format e.g. 1999-02-12",
                         "type": "string",
                         "default": "yyyy-MM-dd ",
                         "format": "date"
@@ -104,7 +104,7 @@
                         ]
                       },
                       "date_of_birth": {
-                        "description": "Must be YYYY-MM-DD format",
+                        "description": "Must be yyyy-MM-dd format e.g. 1999-02-12",
                         "type": "string",
                         "default": "yyyy-MM-dd ",
                         "format": "date"
@@ -241,7 +241,7 @@
                         ]
                       },
                       "last_hiv_test_date": {
-                        "description": "Must be YYYY-MM-DD format",
+                        "description": "Must be yyyy-MM-dd format e.g. 1999-02-12",
                         "type": "string",
                         "default": "yyyy-MM-dd "
                       },
