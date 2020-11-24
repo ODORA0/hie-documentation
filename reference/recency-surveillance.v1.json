@@ -98,7 +98,6 @@
                         "type": "string",
                         "enum": [
                           "DISCORDANT COUPLE",
-                          "Cordant",
                           "Concordant Negative",
                           "Concordant Positive"
                         ]
