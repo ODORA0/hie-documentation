@@ -97,7 +97,7 @@
                       "couple_result": {
                         "type": "string",
                         "enum": [
-                          "DISCORDANT COUPLE",
+                          "Discordant Couple",
                           "Concordant Negative",
                           "Concordant Positive"
                         ]
@@ -176,7 +176,7 @@
                         "enum": [
                           "HIV+",
                           "HIV-",
-                          "UNKNOWN"
+                          "Unknown"
                         ]
                       },
                       "prior_partner_testing": {
@@ -319,11 +319,11 @@
                         "description": "If the client is a child below 12 years",
                         "type": "string",
                         "enum": [
-                          "GRANDPARENT",
+                          "Grandparent",
                           "Father",
-                          "AUNT",
-                          "OTHER FAMILY MEMBER",
-                          "MOTHER",
+                          "Aunt",
+                          "Other Family Member",
+                          "Mother",
                           "Guardian",
                           "Other Specified Family Member",
                           "Both Parents"
@@ -333,14 +333,14 @@
                         "description": "Whether client is married or not",
                         "type": "string",
                         "enum": [
-                          "SINGLE",
-                          "MARRIED",
-                          "DIVORCED",
-                          "SEPARATED",
-                          "WIDOWED",
-                          "CHILD",
-                          "NEVER MARRIED",
-                          "LIVING WITH PARTNER"
+                          "Single",
+                          "Married",
+                          "Divorced",
+                          "Separated",
+                          "Widowed",
+                          "Child",
+                          "Never Married",
+                          "Living With Patner"
                         ]
                       },
                       "date_of_birth": {
