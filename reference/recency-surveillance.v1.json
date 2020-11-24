@@ -80,16 +80,6 @@
                         "default": "yyyy-MM-dd ",
                         "format": "date"
                       },
-                      "health_unit_name": {
-                        "description": "Name of health facility",
-                        "type": "string",
-                        "default": "text"
-                      },
-                      "health_unit_sub_county": {
-                        "description": "Name of the subcounty of the client’s address. If not available, name of subcounty the the health facility is located ",
-                        "type": "string",
-                        "default": "text"
-                      },
                       "health_unit_district": {
                         "description": "Name of the district of the client’s address. If not available, name of district the health facility is located",
                         "type": "string",
