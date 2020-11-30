@@ -80,17 +80,17 @@
                         "default": "yyyy-MM-dd ",
                         "format": "date"
                       },
-                      "Parish": {
+                      "health_unit_name": {
                         "description": "Name of the parish of the client’s address. If not available, name of parish the health facility is located",
                         "type": "string",
                         "default": "text"
                       },
-                      "sub_county": {
+                      "health_unit_sub_county": {
                         "description": "Name of the sub_county of the client’s address. If not available, name of sub_county the health facility is located",
                         "type": "string",
                         "default": "text"
                       },
-                      "district": {
+                      "health_unit_district": {
                         "description": "Name of the district of the client’s address. If not available, name of district the health facility is located",
                         "type": "string",
                         "default": "text"
