@@ -329,7 +329,7 @@
                         "type": "string",
                         "enum": [
                           "Recent",
-                          "Long Term",
+                          "Long-Term",
                           "Negative",
                           "Invalid"
                         ]
