@@ -145,8 +145,8 @@
                       "hts_delivery_model": {
                         "type": "string",
                         "enum": [
-                          "Health Facility(HF)",
-                          "Community"
+                          "Community Testing Point",
+                          "Facility Based (HCT)"
                         ]
                       },
                       "hts_approach": {
